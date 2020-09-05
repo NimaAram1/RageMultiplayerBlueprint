@@ -1,0 +1,83 @@
+body , html{
+    width: 0px;
+    height: 0px;
+    background: none!important;
+}
+img{
+    cursor: default;
+}
+#canvasphone{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    font-family: 'Chelsea Market', cursive;
+}
+.phone{
+    position: relative;
+    
+}
+#canvasphone h2{
+    position: absolute;
+    top : 20px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    left: 65px;
+    z-index: 667;
+}
+.h{
+    width: 100vh;
+}
+.Loader{
+    position: absolute;
+    top : 45%;
+    left: 41%;
+    z-index: 555;
+}
+.unlock{
+    position:absolute;
+    top : 65%;
+    left: 29%;
+    color: white;
+}
+.dead{
+    transform: scale(0);
+}
+.panel{
+    position: absolute!important;
+    top:150px;
+    right: 13px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.panel .p p{
+    width: 80px;
+    height: inherit;
+    background:rgba(111,255,32,0.5);
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 22px;
+    transition: all 0.5s ease;
+}
+.panel .p p:hover{
+    background:rgba(111,255,32,0.2);
+}
+.panel .p{
+    height: 100px;
+}
+.time{
+    position: absolute;
+    top: 20%;
+    left: 31%;
+    font-size: 25px;
+}
+.useric{
+    position: absolute;
+    top:3%;
+    font-size: 10px;
+    left: 7%;
+}
